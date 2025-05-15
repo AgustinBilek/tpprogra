@@ -86,7 +86,7 @@ namespace WindowsFormsApp1
         }
         private void reclamosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void historialDeMensajesToolStripMenuItem_Click(object sender, EventArgs e)

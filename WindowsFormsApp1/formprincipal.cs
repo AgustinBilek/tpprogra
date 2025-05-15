@@ -13,7 +13,7 @@ namespace WindowsFormsApp1
     public partial class formprincipal : Form
     {
         private Persona usuarioLogueado;
-
+        //ASDJASDKHADAHSDKAS
         public formprincipal(Persona usuario)
         {
             InitializeComponent();

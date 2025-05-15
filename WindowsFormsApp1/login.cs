@@ -79,11 +79,6 @@ namespace WindowsFormsApp1
                 txtUsuario.Clear();
                 txtContra.Clear();
                 txtUsuario.Focus();
-
-
-
-
-                ///derek trolo
             }
         }
     }

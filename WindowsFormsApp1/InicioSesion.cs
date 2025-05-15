@@ -8,5 +8,9 @@ namespace WindowsFormsApp1
     public interface IInicioSesion
     {
         bool IniciarSesion(string usuario, string contra);
+
+
+
+        //duhasfgudsaufvfuydayfgvdsagyigoiy fdasudawioygdiodad
     }
 }

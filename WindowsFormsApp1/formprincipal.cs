@@ -41,7 +41,7 @@ namespace WindowsFormsApp1
                 menuPuntuacionesDadas.Visible = true;
                 menuPuntuacionesRecibidas.Visible = true;
 
-                menuUnlogin.Visible = true;
+               
             }
             else if(usuarioLogueado is vendedor)
             {
@@ -111,7 +111,9 @@ namespace WindowsFormsApp1
 
         private void menuUnlogin_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
+            login l=new login();
+            l.Show();
         }
     }
 }

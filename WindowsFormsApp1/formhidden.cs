@@ -35,7 +35,7 @@ namespace WindowsFormsApp1
                 }
                 else
                 {
-                    this.Close();
+                    this.Hide();
                     break;
                 }
             }

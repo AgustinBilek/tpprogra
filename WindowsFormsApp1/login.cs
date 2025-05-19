@@ -67,10 +67,30 @@ namespace WindowsFormsApp1
                 if(item.IniciarSesion(useringresado, contraseñaingresada)) 
                 {
                     loginexitoso = true;
-                    UsuarioAutenticado = item;
-                    this.DialogResult = DialogResult.OK;
-                    this.Close();
-                    return;
+                   
+                    if(item is admin)
+                    {
+                        MessageBox.Show("Bienvenido Administrador");
+                        formprincipal fo = new formprincipal(item);
+                        this.Hide();
+                        fo.Show();
+                    }
+                    else if(item is vendedor)
+                    {
+                        MessageBox.Show("Bienvenido vendedor");
+                        formprincipal fo = new formprincipal(item);
+                        this.Hide();
+                        fo.Show();
+
+                    }
+                    else if(item is comprador)
+                    {
+                        MessageBox.Show("Bienvenido cliente");
+                        formprincipal fo = new formprincipal(item);
+                        this.Hide();
+                        fo.Show();
+                    }
+                    
                 }
             }
             if (loginexitoso == false)
